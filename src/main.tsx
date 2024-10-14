@@ -7,9 +7,9 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
 const manifestUrl = 'https://alverelt.github.io/first_contract_front_end/tonconnect-manifest.json';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // <StrictMode>
     <TonConnectUIProvider manifestUrl={manifestUrl}>
         <App />
-    </TonConnectUIProvider>,
-  </StrictMode>
+    </TonConnectUIProvider>
+  // </StrictMode>
 )
